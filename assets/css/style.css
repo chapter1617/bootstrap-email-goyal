@@ -206,6 +206,10 @@ body {
   font-size: 22px;
   padding: 5px 10px;
 }
+.email-text {
+  max-height: calc(100vh - 476px);
+  overflow: auto;
+}
 .email-text p {
   margin-bottom: 10px;
 }
@@ -363,6 +367,8 @@ body {
     opacity: 1;
     visibility: visible;
   }
-  
+  .email-text {
+    max-height: calc(100vh - 480px);
+  }
 
 }
