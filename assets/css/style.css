@@ -127,7 +127,7 @@ body {
 .senter-list-box {
   padding: 50px 22px;
   background: #CFCFD1;
-  height: 100vh;
+  height: 400vh;    /* made changes */
 }
 .search-input {
   background: #fff;
@@ -206,10 +206,10 @@ body {
   font-size: 22px;
   padding: 5px 10px;
 }
-.email-text {
+/* .email-text {
   max-height: calc(100vh - 476px);
   overflow: auto;
-}
+} */
 .email-text p {
   margin-bottom: 10px;
 }
@@ -295,6 +295,9 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  .fa {
+    font-size: 18px!important;
+  }
   .xs-center {
     text-align: center;
   }
@@ -344,16 +347,23 @@ body {
   .right-main {
     width: 100%;
   }
+  .email-sec-wrapper{
+    display: none;
+  }
   .email-section {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     background: #fff;
-    opacity: 0;
-    visibility: hidden;
+    /* opacity: 0;
+    visibility: hidden; */
     transition: .5s all ease;
+  }
+  .icon-reply a{
+    padding: 5px 5px;
+    font-size: 16px;
   }
   .user-profile .img-box {
     width: 40px;
@@ -363,12 +373,24 @@ body {
     font-size: 16px;
     margin-right: 12px;
   }
-  .email-section.togglelistModal.toggle {
+  .user-profile-blue h4 {
+    font-size: 16px;
+  }
+  .user-profile-blue .user-icon {
+    /* background: red; */
+    /* background: #fff; */
+    width: 30px;
+    height: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    
+  }
+  /* .email-section.togglelistModal.toggle {
     opacity: 1;
     visibility: visible;
-  }
-  .email-text {
+  } */
+  /* .email-text {
     max-height: calc(100vh - 480px);
-  }
+  } */
 
 }
