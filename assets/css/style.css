@@ -184,11 +184,11 @@ body {
 .user-profile-blue .user-icon {
   /* background: red; */
   /* background: #fff; */
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 90px;
-  min-height: 50px;
-  min-width: 50px;
+  min-height: 40px;
+  min-width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,14 +197,17 @@ body {
   color: #3C4DE3;
   border: 2px solid #3C4DE3;
 }
+.fa{
+  font-size: 20px;
+}
 .user-profile-blue h4 {
   color: #3C4DE3;
-  font-size: 34px;
+  font-size: 24px;
 }
 .icon-reply a {
   color: #B7B5B5;
   font-size: 22px;
-  padding: 5px 10px;
+  padding: 5px 8px;
 }
 /* .email-text {
   max-height: calc(100vh - 476px);
